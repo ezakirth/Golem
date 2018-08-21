@@ -1,0 +1,59 @@
+body {
+    font-family: "Impact";
+    color:white;
+    -webkit-text-stroke: 1px black;
+
+    position:absolute;
+    background-image: url('../assets/bg2.jpg');
+    background-size: cover;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */    
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+.red {
+    color:red;
+    font-weight:bold;
+    margin:2px;
+}
+
+.blue {
+    color:blue;
+    font-weight:bold;
+    margin:2px;
+}
+
+.green {
+    color:green;
+    font-weight:bold;
+    margin:2px;
+}
+
+.yellow {
+    color:rgb(255, 174, 0);
+    font-weight:bold;
+    margin:2px;
+}
+
+.grey {
+    color:grey;
+    font-weight:bold;
+    margin:2px;
+}
+
+.transparent {
+    opacity: .5;
+}

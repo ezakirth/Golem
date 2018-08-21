@@ -1,0 +1,42 @@
+.mainBoard {
+    position:absolute;
+    min-width:854px;
+}
+
+.board {
+    position:relative;
+    float:left;
+}
+
+#tradeCardsBack, #pointCardsBack {
+    clear:both;
+    float:right;
+    background-size: cover;
+    height:167px;
+    width:116px;
+    padding:5px;
+    margin:3px;
+    box-sizing:border-box;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0, .5),
+                inset 0 0 0 1pt darkgray;
+}
+
+#pointCardsBack {
+    background-image: url('../assets/back.png');
+}
+#tradeCardsBack {
+    background-image: url('../assets/back2.png');
+}
+#pointCardsBoard, #tradeCardsBoard {
+    position:relative;
+    clear:both;
+    float:right;
+}
+
+
+#pointCardsBoard:empty, #tradeCardsBoard:empty {
+    display: none;
+}
+

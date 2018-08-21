@@ -1,0 +1,164 @@
+
+#player1Rest {
+    position:absolute;
+    font-size:40px;
+    border: 1px solid darkgrey;
+    bottom:160px;
+    left:46px;
+    box-sizing: border-box;
+    width:128px;
+    height:64px;
+    padding-top:10px;
+    padding-left:25px;
+    background-image: url('../assets/rest.png');
+    background-size: cover;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0, .5);
+    cursor: pointer;
+}
+
+#player1Rest:hover {
+    box-shadow: inset 2px 2px 2px 2px rgba(0,0,0, .5);
+/*    border: 2px solid rgb(126, 255, 147)!important;
+    box-shadow: 0px 0px 3px 3px rgb(126, 255, 147),
+                inset 0 0 3px 3px rgb(126, 255, 147)!important;*/
+}
+
+#player1Ressources {
+    position:absolute;
+    border: 1px solid darkgrey;
+    bottom:8px;
+    left:5px;
+    box-sizing: border-box;
+    padding-top:42px;
+    padding-left:7px;
+    width:220px;
+    height:128px;
+    background-image: url('../assets/gems.png');
+    background-size: cover;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0, .5);
+    line-height:0px;
+}
+
+#player1Ressources img {
+    cursor: pointer;
+}
+
+.gemBig {
+    width:34px;
+    height:34px;
+    margin:3.7px;
+/*    box-shadow: inset 0px 0px 4px 4px rgba(0,0,0, .5);*/
+}
+
+#player1Hand {
+    position:absolute;
+    left:350px;
+    bottom:25px;
+    width: auto;
+    transition: left 0.5s;
+}
+#player1Hand:hover {
+    left:321px;
+    z-index: 999;
+
+}
+
+#player1Hand .tradeCard {
+    transition: margin-left 0.5s;
+    margin-left: -114px;
+}
+
+#player1Hand:hover .tradeCard {
+    margin-left: -85px;
+}
+
+#player1Hand .tradeCard:hover, #player1Board .tradeCard:hover, #player1Points .pointCard:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0, .5),
+                inset 0 0 0 1pt darkgray;
+}
+
+
+
+#player1Board {
+    position:absolute;
+    left:630px;
+    bottom:25px;
+    width: auto;
+    transition: left 0.5s;
+}
+#player1Board:hover {
+    left:601px;
+    z-index: 999;
+}
+
+#player1Board .tradeCard {
+    transition: margin-left 0.5s;
+    margin-left: -114px;
+}
+
+#player1Board:hover .tradeCard {
+    margin-left: -85px;
+}
+
+
+#player1Points {
+    position:absolute;
+    left:900px;
+    bottom:25px;
+    width: auto;
+    transition: left 0.5s;
+}
+#player1Points:hover {
+    left:871px;
+    z-index: 999;
+}
+
+#player1Points .pointCard {
+    transition: margin-left 0.5s;
+    margin-left: -114px;
+}
+
+#player1Points:hover .pointCard {
+    margin-left: -85px;
+}
+
+#player1Points #totalPoints {
+    position:relative;
+    left:0px;
+    top:0px;
+    font-size:40px;
+    transition: margin-left 0.5s;
+    margin-left: -114px;
+}
+
+#player1Points:hover #totalPoints {
+    margin-left: -85px;
+}
+
+
+#player1Board .lib {
+    position:relative;
+    left:0px;
+    top:0px;
+    font-size:40px;
+    transition: margin-left 0.5s;
+    margin-left: -114px;
+}
+
+#player1Board:hover .lib {
+    margin-left: -85px;
+}
+
+
+#player1Hand .lib {
+    position:relative;
+    left:0px;
+    top:0px;
+    font-size:40px;
+    transition: margin-left 0.5s;
+    margin-left: -114px;
+}
+
+#player1Hand:hover .lib {
+    margin-left: -85px;
+}

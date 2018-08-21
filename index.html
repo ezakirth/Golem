@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/Player.css">
+    <link rel="stylesheet" type="text/css" href="css/Board.css">
+    <link rel="stylesheet" type="text/css" href="css/Cards.css">
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="Cards/Card.js"></script>
+    <script src="Player/Player.js"></script>    
+    <script src="Player/Player.Ressources.js"></script>    
+    <script src="Player/Player.Hand.js"></script>
+    <script src="Player/Player.Actions.js"></script>
+    <script src="Board/Board.js"></script>    
+    <script src="Board/Board.PointCard.js"></script>    
+    <script src="Board/Board.TradeCard.js"></script>    
+    <script src="main.js"></script>    
+</head>
+<body>
+    <div id="player2Ressources"></div>
+    <div id="player2Board"></div>
+
+    <div class="mainBoard">
+        <div class="board">
+            <div id="pointCardsBoard"></div>
+            <div id="tradeCardsBoard"></div>
+        </div>
+        <div class="board">
+            <div id="pointCardsBack"></div>
+            <div id="tradeCardsBack"></div>
+        </div>
+    </div>
+    <div id="player1Rest" class="usable_off" onclick='players[0].rest();'>Rest</div>
+    <div id="player1Ressources" class="usable"></div>
+    <div id="player1Points"><div id="totalPoints"></div></div>
+    <div id="player1Board"><div class="lib">Board</div></div>
+    <div id="player1Hand"><div class="lib">Hand</div></div>
+</body>
+</html>
